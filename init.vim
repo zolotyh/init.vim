@@ -1,0 +1,13 @@
+source ~/.config/nvim/config/plugins.vim
+source ~/.config/nvim/config/keys.vim
+source ~/.config/nvim/config/appearance.vim
+source ~/.config/nvim/config/common.vim
+source ~/.config/nvim/config/nerdtree.vim
+source ~/.config/nvim/config/emmet.vim
+source ~/.config/nvim/config/statusline.vim
+source ~/.config/nvim/config/langs/js.vim
+source ~/.config/nvim/config/langs/go.vim
+source ~/.config/nvim/config/esearch.vim
+source ~/.config/nvim/config/flutter.vim
+source ~/.config/nvim/config/fzf.vim
+source ~/.config/nvim/config/coc.vim
