@@ -29,16 +29,14 @@
             "args": ["--stdio"]
         },
         "dart": {
-            "command": "dart_language_server", // in windows is dart_language_server.bat
-            "args": [],
+            "command": "dart",
+            "args": [
+                "/usr/local/opt/dart/libexec/bin/snapshots/analysis_server.dart.snapshot",
+                "--lsp"
+            ],
             "filetypes": ["dart"],
-            "initializationOptions": {},
-            "settings": {
-                "dart": {
-                    "validation": {},
-                    "completion": {}
-                }
-            }
+            "disableDynamicRegister": true,
+            "trace.server": "verbose"
         },
         "python": {
             "command": "python",
